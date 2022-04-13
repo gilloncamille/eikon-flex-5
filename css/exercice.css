@@ -3,15 +3,19 @@
   display: flex;
   align-items: baseline;
 }
-.element-blue {
-  flex-grow: 1;
-}
 /* 2. exercice-baseline-2 */
-
+.exercice-baseline-2 .container {
+  display: flex;
+ flex-direction: row;
+ flex-wrap: wrap-reverse;
+}
 /* 3. exercice-baseline-3 */
 
 /* 4. exercice-flow-1 */
-
+.exercice-flow-1 .container{
+  display: flex;
+  flex-flow: row wrap;
+}
 /* 5. exercice-flow-2 */
 
 /* 6. exercice-all-in-1 */
