@@ -4,25 +4,16 @@
   align-items: baseline;
 }
 /* 2. exercice-baseline-2 */
-.exercice-baseline-2 .container {
+.exercice-baseline-2 .container{
   display: flex;
-flex-direction: row-reverse;
-flex-wrap:nowrap ;
+  flex-direction: row-reverse;
+  flex-wrap: wrap-reverse;
+  align-items: baseline;
 }
-.exercice-baseline-2 .element-red {
-  align-self: flex-end;
-}
-.exercice-baseline-2 .element-pink {
-  align-self: flex-start;
-  order:-1;
-}
-.exercice-baseline-2 .exercice-baseline-2.element-blue {
-  align-self: flex-end;
-  order:1;
-}
-.exercice-baseline-2 .element-yellow {
-  align-self: flex-start;
-  flex-grow: 1;
+.exercice-baseline-2 .element{
+  width:50%;
+  flex-wrap: wrap;
+  box-sizing: border-box;
 }
 /* 3. exercice-baseline-3 */
 .exercice-baseline-3 .container {
